@@ -7,4 +7,8 @@ const router = Router();
 
 router.use('/auth', authRoutes);
 // TODO: Add authentication to the API routes
+router.use('/api', authenticateToken, apiRoutes);
+
+export default router;
+
 
