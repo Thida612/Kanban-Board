@@ -43,8 +43,6 @@ class AuthService {
   }
 
       // TODO: redirect to the home page
-  
-
       logout() {
         // TODO: remove the token from localStorage
         // TODO: redirect to the login page
