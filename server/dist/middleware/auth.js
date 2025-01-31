@@ -1,8 +1,7 @@
 import jwt from 'jsonwebtoken';
 // Middleware function to authenticate JWT token
 export const authenticateToken = (req, res, next) => {
-
- // TODO: verify the token exists and add the user data to the request object
+    // TODO: verify the token exists and add the user data to the request object
     // Get the authorization header from the request
     const authHeader = req.headers.authorization;
     // Check if the authorization header is present
