@@ -58,6 +58,10 @@ To build the project, run: npm run build
 ## License
 MIT
 
+## Credit
+Andres(tutor) help with login authentication<br>
+Charlie Werness(instructor) & Austin Slater (TA) Help with render
+
 
 ## Deployed link
 https://kanban-board01-u3vy.onrender.com<br><br>
